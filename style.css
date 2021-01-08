@@ -7,12 +7,32 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    background-color: #8e44ad;
+    color: #fff;
+    font-family: 'Roboto Mono', sans-serif;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
     margin: 0;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1.875rem 3.125rem;
+}
+
+.counter {
+    font-size: 3.75rem;
+    margin-top: 0.625rem;
+}
+
+@media (max-width: 41.5rem) {
+    body {
+        flex-direction: column;
+    }
 }
