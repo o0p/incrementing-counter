@@ -30,3 +30,9 @@ body {
     font-size: 3.75rem;
     margin-top: 0.625rem;
 }
+
+@media (max-width: 41.5rem) {
+    body {
+        flex-direction: column;
+    }
+}
